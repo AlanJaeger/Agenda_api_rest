@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body style="text-align:center;">
+    <h1> Agenda Lista</h1>
+    {% for agenda in agendas %}
+      <p>{{ agenda.data }} das {{ agenda.inicio }} as {{ agenda.fim }}</p>
+    {% endfor %}
+  </body>
+</html>
