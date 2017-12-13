@@ -73,16 +73,16 @@ http://127.0.0.1:8000/agenda/
 
 
 ### Manipuladores e Roteamento
-Para facilitar a interação foi criado Hyperlinks usando o slug
 **Método**|**URL**|**Ação**
 :--:|:--:|:--:
 GET|`http://127.0.0.1:8000/api/agenda/`|lista os agendamentos
-GET|`http://127.0.0.1:8000/api/agenda/<slug>`|Detalhe do agendamento
+GET|`http://127.0.0.1:8000/api/agenda/``<slug>`|Detalhe do agendamento
 POST|`http://127.0.0.1:8000/api/agenda/create/`|cria um novo agendamento
 PUT|`http://127.0.0.1:8000/api/agenda/<slug>/update/`|atualiza um agendamento
 DELETE|`http://127.0.0.1:8000/api/agenda/<slug>/delete/`|deleta um agendamento
 
 **Estrutura**
+Para facilitar a interação foi colocado um Hyperlink 
 
 ```json
 [
